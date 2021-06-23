@@ -1,0 +1,38 @@
+<header></header>
+<div class="container">
+  <div class="body py-5">
+    <div class="d-flex flex-column align-items-center">
+      <h1 class="titulo p-0 m-0">{{titulo}}</h1>
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="nit p-0 m-0">NIT: </p>
+        <p class="nit p-0 m-0">{{nit}}</p>
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="subTitulo">Capa: {{capa}}</p>
+        <p class="subTitulo">Segmento: {{segmento}}</p>
+      </div>
+      <mat-divider></mat-divider>
+    </div>
+    <div>
+
+      <span class="descripcion">Indique la línea de crédito que quiere reconsiderar</span>
+
+      <div class="row justify-content-center my-4">
+        <div class="col-12 col-sm-6 col-md-5 col-lg-3 mb-2">
+          <card-lineas></card-lineas>
+        </div>
+        <div class="col-12 col-sm-6 col-md-5 col-lg-3 mb-2">
+          <card-lineas ></card-lineas>
+        </div>
+      </div>
+      <div class="row w-100">
+        <card-alert class="w-100"></card-alert>
+        
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<footer></footer>

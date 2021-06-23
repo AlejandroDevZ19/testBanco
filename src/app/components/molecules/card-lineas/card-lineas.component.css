@@ -1,0 +1,24 @@
+.card-wrapper{
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.button-lineas{
+    padding: 1rem 0px;
+    width: 100% !important;
+    color: #009bd8;
+    border: none;
+    background: #e3e3e3;
+}
+.button-lineas:hover{
+    padding: 1rem 0px;
+    width: 100% !important;
+    color: #fff;
+    border: none;
+    background: cornflowerblue;
+}

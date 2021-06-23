@@ -1,0 +1,51 @@
+.body{
+    height: 80vh;
+    font-family: 'Rubik', sans-serif;
+}
+.titulo{
+    color:#001A4F;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.subTitulo{
+    color: #001A4F;
+    text-align: center;
+    font-weight: 400;
+   
+}
+.nit{
+    color: #808080;
+    text-align: center;
+  
+}
+.descripcion{
+    color: #009bd8;
+    text-align: center;
+  
+}
+@media (max-width: 600px) {
+    .titulo{
+        color:#111e27;
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .subTitulo{
+        color: #111e27;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+       
+    }
+    .nit{
+        color: #8898ae;
+        text-align: center;
+      
+    }
+    .descripcion{
+        color: #009bd8;
+        text-align: center;
+      
+    }
+  }
